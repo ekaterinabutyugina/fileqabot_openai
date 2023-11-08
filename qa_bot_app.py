@@ -54,7 +54,7 @@ if uploaded_file and question and openai_api_key:
         temperature=0,
     )
 
-    response
+    #response
 
     st.write("### Answer")
     st.write(response['choices'][0]['text'])
